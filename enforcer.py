@@ -3,7 +3,7 @@ import sys
 import re
 
 if len(sys.argv) < 3:
-    print('Usage: enforcer (rules.txt) (parent_directory)')
+    print('Usage: enforcer (rules.txt) (parent_directory) [excludepath, excludepath2, ...]')
     exit(1)
 
 ruleFile = sys.argv[1]
